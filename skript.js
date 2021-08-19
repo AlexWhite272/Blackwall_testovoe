@@ -9,7 +9,8 @@ menuOpen.addEventListener("click", ()=>{
 })
 menuClose.addEventListener("click", ()=>{
     mobNav.style.display = "none";
-    menuOpen.style.display = " "
+
+    menuOpen.removeAttribute('style')
     menuClose.style.display = "none"
 })
 
