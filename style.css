@@ -38,7 +38,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 .nav__open{
     display: none;
-    
 }
 .header {
     /* position: fixed;
@@ -326,6 +325,11 @@ margin-bottom: 30px;
     display: none;
 }
 @media (max-width:1000px){
+    .nav__open{
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+    }
     .ellipse{
         width: 600px;
     height: 600px;
@@ -575,7 +579,7 @@ z-index: 0;
     background-color: whitesmoke;
     position:fixed;
     top:30px;
-    left: 588px;
+    left: 0px;
     text-align: center;
 }
 .nav__mobile{
